@@ -1,10 +1,21 @@
 package com.ab.dna;
 
+import java.io.File;
+
 import com.structurizr.Workspace;
 import com.structurizr.api.StructurizrClient;
-import com.structurizr.model.*;
-import com.structurizr.view.*;
-import java.io.File;
+import com.structurizr.model.Component;
+import com.structurizr.model.Container;
+import com.structurizr.model.Enterprise;
+import com.structurizr.model.Location;
+import com.structurizr.model.Model;
+import com.structurizr.model.Person;
+import com.structurizr.model.SoftwareSystem;
+import com.structurizr.view.ComponentView;
+import com.structurizr.view.ContainerView;
+import com.structurizr.view.PaperSize;
+import com.structurizr.view.SystemContextView;
+import com.structurizr.view.ViewSet;
 
 /**
  * This is a simple example of how to get started with Structurizr for Java.
