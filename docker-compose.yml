@@ -1,0 +1,24 @@
+---
+
+version: "3.7"
+
+services:
+  dev:
+    build:
+      context: .
+      args:
+        - UNAME=maven
+        - UID=$UID
+        - GID=$GID
+    init: true
+    env_file:
+     - structurizr.env
+    environment:
+      - MAVEN_CONFIG=/home/maven/.m2
+    volumes:
+      - .:/home/maven/code
+      - maven-cache:/home/maven/.m2
+
+volumes:
+  maven-cache:
+    external: false
