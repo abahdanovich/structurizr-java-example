@@ -2,8 +2,6 @@ package com.ab.dna;
 
 import com.structurizr.Workspace;
 import com.structurizr.api.StructurizrClient;
-import com.structurizr.documentation.Format;
-import com.structurizr.documentation.StructurizrDocumentationTemplate;
 import com.structurizr.model.*;
 import com.structurizr.view.*;
 import java.io.File;
